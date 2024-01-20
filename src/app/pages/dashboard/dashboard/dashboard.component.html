@@ -1,68 +1,14 @@
 <div class="dashboard_page">
-  <div class="inner_dash_board_page">
-    <div class="row">
-      <div class="col-xl-3">
-        <div class="dash_board_side_ber">
-          <!-- logo -->
-          <div class="page_header_logo">
-            <div class="logo">
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="27" viewBox="0 0 34 27" fill="none">
-                  <path d="M34 0H0V27H34V0Z" fill="url(#pattern0)"/>
-                  <defs>
-                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                      <use xlink:href="#image0_2_598" transform="matrix(0.01498 0 0 0.01887 -0.00194229 0)"/>
-                    </pattern>
-                    <image id="image0_2_598" width="67" height="53" xlink:href="data:image/png;base64,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"/>
-                  </defs>
-                </svg>
-              </span>
+    <div class="inner_dash_board_page">
+        <div class="container-fluid custom-pading">
+            <div class="row">
+                <div class="col-xl-3">
+                    <div class="side_ber">
+                        <sideber></sideber>
+                    </div>
+
+                </div>
             </div>
-          </div>
-          <!-- logo-end -->
-          <!-- header-sideber-title-content -->
-          <div class="header-sideber-title-content">
-            <h4>Miami-Fort Lauderdale</h4>
-            <h2>Carlos Guzman</h2>
-            <h2>Sandoval</h2>
-          </div>
-          <!-- header-sideber-title-content-end -->
-          <!-- standing-component -->
-          <div class="standing_body">
-            <button>
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
-                  <g clip-path="url(#clip0_2_677)">
-                    <path d="M18.2083 5.29167H16.2917V3.375H6.70833V5.29167H4.79167C3.7375 5.29167 2.875 6.15417 2.875 7.20833V8.16667C2.875 10.6104 4.715 12.6037 7.08208 12.9008C7.38516 13.619 7.85853 14.2525 8.46128 14.7467C9.06404 15.241 9.77806 15.581 10.5417 15.7375V18.7083H6.70833V20.625H16.2917V18.7083H12.4583V15.7375C13.2219 15.581 13.936 15.241 14.5387 14.7467C15.1415 14.2525 15.6148 13.619 15.9179 12.9008C18.285 12.6037 20.125 10.6104 20.125 8.16667V7.20833C20.125 6.15417 19.2625 5.29167 18.2083 5.29167ZM4.79167 8.16667V7.20833H6.70833V10.8692C5.59667 10.4667 4.79167 9.4125 4.79167 8.16667ZM11.5 13.9167C9.91875 13.9167 8.625 12.6229 8.625 11.0417V5.29167H14.375V11.0417C14.375 12.6229 13.0813 13.9167 11.5 13.9167ZM18.2083 8.16667C18.2083 9.4125 17.4033 10.4667 16.2917 10.8692V7.20833H18.2083V8.16667Z" fill="#262626"/>
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_2_677">
-                      <rect width="23" height="23" fill="white" transform="translate(0 0.5)"/>
-                    </clipPath>
-                  </defs>
-                </svg>
-              </span>
-              Fantastic
-            </button>
-          </div>
-          <!-- standing-component-end -->
-          <!-- expire-component -->
-          <div class="expire-component">
-            <button class="expire-component-btn">
-              Your membership expires in 3 days
-            </button>
-          </div>
-          <!-- expire-component-end -->
-          <!-- .language-bodys -->
-          <div class="language_body">
-            <div class="inner_language_bodys">
-              <button class="active_btns">English</button>
-              <button class="">Español</button>
-            </div>
-          </div>
-          <!-- .language-body-end -->
         </div>
-      </div>
     </div>
-  </div>
 </div>

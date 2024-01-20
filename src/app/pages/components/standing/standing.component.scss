@@ -1,0 +1,29 @@
+.standing_body>button {
+    background: #FFF;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.08));
+    border: none;
+    outline: none;
+    color: #262626;
+    font-family: "Work Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 100px;
+}
+
+.standing_body>button>span {
+    margin-right: 12px;
+}
+
+standing {
+    margin-bottom: 20px;
+}
+
+.standing_body {
+    margin-bottom: 20px;
+}
