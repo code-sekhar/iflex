@@ -1,0 +1,211 @@
+<div class="dashboard_page">
+    <div class="inner_dash_board_page">
+        <div class="container-fluid custom-pading">
+            <div class="row">
+                <div class="col-xl-3 custome_mem_pading_right">
+                    <div class="side_ber">
+                        <!-- <sideber></sideber> -->
+                        <div class="dash_board_side_ber">
+                            <!-- logo -->
+                            <div class="page_header_logo">
+                                <div class="logo">
+                                    <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="27" viewBox="0 0 34 27" fill="none">
+                      <path d="M34 0H0V27H34V0Z" fill="url(#pattern0)"/>
+                      <defs>
+                      <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                      <use xlink:href="#image0_2_598" transform="matrix(0.01498 0 0 0.01887 -0.00194229 0)"/>
+                      </pattern>
+                      <image id="image0_2_598" width="67" height="53" xlink:href="data:image/png;base64,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"/>
+                      </defs>
+                      </svg>
+                      </span>
+                                </div>
+                            </div>
+                            <!-- logo-end -->
+                            <!-- header-sideber-title-content -->
+                            <div class="header-sideber-title-content">
+                                <service-area></service-area>
+                                <name></name>
+
+                            </div>
+                            <!-- header-sideber-title-content-end -->
+                            <!-- standing-component -->
+                            <standing></standing>
+
+
+                            <!-- standing-component-end -->
+                            <!-- expire-component -->
+                            <expire routerLink="/payment"></expire>
+
+                            <!-- expire-component-end -->
+                            <!-- .language-bodys -->
+                            <div class="language_body">
+                                <div class="inner_language_bodys">
+                                    <button class="active_btns">English</button>
+                                    <button class="">Español</button>
+                                </div>
+                            </div>
+                            <!-- .language-body-end -->
+                            <!-- options-start -->
+                            <div class="group_setiongs_options">
+                                <div class="inner_group_setiongs_options">
+                                    <div class="setings_options  active_setings" routerLink="/payment">
+                                        <div class="inner_setings_options">
+                                            <div class="setiongs_icons">
+                                                <span>
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
+                                            <path d="M28 4.66669C15.12 4.66669 4.66663 15.12 4.66663 28C4.66663 40.88 15.12 51.3334 28 51.3334C40.88 51.3334 51.3333 40.88 51.3333 28C51.3333 15.12 40.88 4.66669 28 4.66669ZM23.3333 36.1667V19.8334C23.3333 19.6167 23.3936 19.4043 23.5075 19.22C23.6214 19.0357 23.7844 18.8868 23.9782 18.7899C24.172 18.693 24.3889 18.6519 24.6047 18.6714C24.8205 18.6909 25.0266 18.77 25.2 18.9L36.0966 27.0667C36.7266 27.5334 36.7266 28.4667 36.0966 28.9334L25.2 37.1C25.0266 37.23 24.8205 37.3092 24.6047 37.3286C24.3889 37.3481 24.172 37.3071 23.9782 37.2102C23.7844 37.1133 23.6214 36.9643 23.5075 36.78C23.3936 36.5957 23.3333 36.3834 23.3333 36.1667Z" fill="black"/>
+                                          </svg>
+                                       </span>
+                                                <h4>Is Running</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="setings_options">
+                                        <div class="inner_setings_options">
+                                            <div class="setiongs_icons">
+                                                <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+                                                  <g clip-path="url(#clip0_2_657)">
+                                                    <path d="M27.5 4.58331C17.875 4.58331 9.16663 11.9625 9.16663 23.375C9.16663 30.6625 14.7812 39.2333 25.9875 49.1104C26.8583 49.8666 28.1645 49.8666 29.0354 49.1104C40.2187 39.2333 45.8333 30.6625 45.8333 23.375C45.8333 11.9625 37.125 4.58331 27.5 4.58331ZM27.5 27.5C24.9791 27.5 22.9166 25.4375 22.9166 22.9166C22.9166 20.3958 24.9791 18.3333 27.5 18.3333C30.0208 18.3333 32.0833 20.3958 32.0833 22.9166C32.0833 25.4375 30.0208 27.5 27.5 27.5Z" fill="white"/>
+                                                  </g>
+                                                  <defs>
+                                                    <clipPath id="clip0_2_657">
+                                                      <rect width="55" height="55" fill="white"/>
+                                                    </clipPath>
+                                                  </defs>
+                                                </svg>
+                                              </span>
+                                                <h4>I've Arrived</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="setings_options">
+                                        <div class="inner_setings_options">
+                                            <div class="setiongs_icons">
+                                                <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+                                                  <g clip-path="url(#clip0_2_662)">
+                                                    <path d="M6.875 41.25C6.875 42.5104 7.90625 43.5417 9.16667 43.5417H20.625V38.9583H9.16667C7.90625 38.9583 6.875 39.9896 6.875 41.25ZM6.875 13.75C6.875 15.0104 7.90625 16.0417 9.16667 16.0417H29.7917V11.4583H9.16667C7.90625 11.4583 6.875 12.4896 6.875 13.75ZM29.7917 45.8333V43.5417H45.8333C47.0938 43.5417 48.125 42.5104 48.125 41.25C48.125 39.9896 47.0938 38.9583 45.8333 38.9583H29.7917V36.6667C29.7917 35.4063 28.7604 34.375 27.5 34.375C26.2396 34.375 25.2083 35.4063 25.2083 36.6667V45.8333C25.2083 47.0938 26.2396 48.125 27.5 48.125C28.7604 48.125 29.7917 47.0938 29.7917 45.8333ZM16.0417 22.9167V25.2083H9.16667C7.90625 25.2083 6.875 26.2396 6.875 27.5C6.875 28.7604 7.90625 29.7917 9.16667 29.7917H16.0417V32.0833C16.0417 33.3438 17.0729 34.375 18.3333 34.375C19.5938 34.375 20.625 33.3438 20.625 32.0833V22.9167C20.625 21.6563 19.5938 20.625 18.3333 20.625C17.0729 20.625 16.0417 21.6563 16.0417 22.9167ZM48.125 27.5C48.125 26.2396 47.0938 25.2083 45.8333 25.2083H25.2083V29.7917H45.8333C47.0938 29.7917 48.125 28.7604 48.125 27.5ZM36.6667 20.625C37.9271 20.625 38.9583 19.5938 38.9583 18.3333V16.0417H45.8333C47.0938 16.0417 48.125 15.0104 48.125 13.75C48.125 12.4896 47.0938 11.4583 45.8333 11.4583H38.9583V9.16667C38.9583 7.90625 37.9271 6.875 36.6667 6.875C35.4063 6.875 34.375 7.90625 34.375 9.16667V18.3333C34.375 19.5938 35.4063 20.625 36.6667 20.625Z" fill="white"/>
+                                                  </g>
+                                                  <defs>
+                                                    <clipPath id="clip0_2_662">
+                                                      <rect width="55" height="55" fill="white"/>
+                                                    </clipPath>
+                                                  </defs>
+                                                </svg>
+                                   </span>
+                                                <h4>Block Filters</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="setings_options">
+                                        <div class="inner_setings_options">
+                                            <div class="setiongs_icons">
+                                                <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="49" viewBox="0 0 50 49" fill="none">
+                                                  <g clip-path="url(#clip0_2_666)">
+                                                    <path d="M31.125 2.04166H18.875V6.12499H31.125V2.04166ZM22.9583 28.5833H27.0417V16.3333H22.9583V28.5833ZM39.3529 15.0879L42.2521 12.1887C41.3742 11.1475 40.4146 10.1675 39.3733 9.30999L36.4742 12.2092C33.2225 9.5924 29.1738 8.16602 25 8.16666C14.8529 8.16666 6.625 16.3946 6.625 26.5417C6.625 36.6887 14.8325 44.9167 25 44.9167C28.4592 44.9185 31.8486 43.9433 34.7778 42.1032C37.707 40.2631 40.0569 37.633 41.5568 34.5159C43.0567 31.3987 43.6456 27.9213 43.2557 24.4842C42.8658 21.047 41.5129 17.7899 39.3529 15.0879ZM25 40.8333C17.0988 40.8333 10.7083 34.4429 10.7083 26.5417C10.7083 18.6404 17.0988 12.25 25 12.25C32.9013 12.25 39.2917 18.6404 39.2917 26.5417C39.2917 34.4429 32.9013 40.8333 25 40.8333Z" fill="white"/>
+                                                  </g>
+                                                  <defs>
+                                                    <clipPath id="clip0_2_666">
+                                                      <rect width="49" height="49" fill="white" transform="translate(0.5)"/>
+                                                    </clipPath>
+                                                  </defs>
+                                                </svg>
+                                 </span>
+                                                <h4>Start/finish</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="setings_options">
+                                        <div class="inner_setings_options">
+                                            <div class="setiongs_icons">
+                                                <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="59" viewBox="0 0 60 59" fill="none">
+                                                  <g clip-path="url(#clip0_2_670)">
+                                                    <path d="M50.9942 12.8571L47.5771 8.72708C46.9133 7.89125 45.9054 7.375 44.75 7.375H15.25C14.0946 7.375 13.0867 7.89125 12.3983 8.72708L9.00583 12.8571C8.29292 13.6929 7.875 14.7992 7.875 15.9792V46.7083C7.875 49.4125 10.0875 51.625 12.7917 51.625H47.2083C49.9125 51.625 52.125 49.4125 52.125 46.7083V15.9792C52.125 14.7992 51.7071 13.6929 50.9942 12.8571ZM15.84 12.2917H44.16L46.1512 14.6762H13.8733L15.84 12.2917ZM12.7917 46.7083V19.6667H47.2083V46.7083H12.7917ZM33.5646 24.5833H26.4354V31.9583H20.1667L30 41.7917L39.8333 31.9583H33.5646V24.5833Z" fill="white"/>
+                                                  </g>
+                                                  <defs>
+                                                    <clipPath id="clip0_2_670">
+                                                      <rect width="59" height="59" fill="white" transform="translate(0.5)"/>
+                                                    </clipPath>
+                                                  </defs>
+                                                </svg>
+                                               </span>
+                                                <h4>Reserved Blocks</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="setings_options">
+                                        <div class="inner_setings_options">
+                                            <div class="setiongs_icons">
+                                                <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="55" height="56" viewBox="0 0 55 56" fill="none">
+                                                  <g clip-path="url(#clip0_2_673)">
+                                                    <path d="M43.5417 7.375H11.4583C8.9375 7.375 6.875 9.4375 6.875 11.9583V44.0417C6.875 46.5625 8.9375 48.625 11.4583 48.625H43.5417C46.0625 48.625 48.125 46.5625 48.125 44.0417V11.9583C48.125 9.4375 46.0625 7.375 43.5417 7.375ZM43.5417 44.0417H11.4583V11.9583H43.5417V44.0417ZM41.2271 21.125L37.9958 17.8708L22.8937 32.9729L16.9812 27.0833L13.7271 30.3146L22.8937 39.4583L41.2271 21.125Z" fill="white"/>
+                                                  </g>
+                                                  <defs>
+                                                    <clipPath id="clip0_2_673">
+                                                      <rect width="55" height="55" fill="white" transform="translate(0 0.5)"/>
+                                                    </clipPath>
+                                                  </defs>
+                                                </svg>
+                                             </span>
+                                                <h4>Capture History</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- options-end -->
+                            <!-- Exit App -->
+                            <div class="exit_app">
+                                <!-- standing-component -->
+                                <standing></standing>
+
+
+                                <!-- standing-component-end -->
+                                <div class="iunner_exit_app">
+                                    <a href="">
+                                        <span class="exist_icons">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                                            <g clip-path="url(#clip0_2_639)">
+                                              <path d="M8.82875 13.6413L10.0625 14.875L14.4375 10.5L10.0625 6.125L8.82875 7.35875L11.0863 9.625H2.625V11.375H11.0863L8.82875 13.6413ZM16.625 2.625H4.375C3.91087 2.625 3.46575 2.80937 3.13756 3.13756C2.80937 3.46575 2.625 3.91087 2.625 4.375V7.875H4.375V4.375H16.625V16.625H4.375V13.125H2.625V16.625C2.625 17.0891 2.80937 17.5342 3.13756 17.8624C3.46575 18.1906 3.91087 18.375 4.375 18.375H16.625C17.5875 18.375 18.375 17.5875 18.375 16.625V4.375C18.375 3.4125 17.5875 2.625 16.625 2.625Z" fill="white"/>
+                                            </g>
+                                            <defs>
+                                              <clipPath id="clip0_2_639">
+                                                <rect width="21" height="21" fill="white"/>
+                                              </clipPath>
+                                            </defs>
+                                          </svg>
+                                      </span> Exit App
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Exit App end -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xl-3 custome_mem_pading">
+                    <div class="membership_sextions">
+                        <membreship-page></membreship-page>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="dash_board_content_sections">
+                        <div class="dash_board_price_title">
+                            <home-title-and-amount></home-title-and-amount>
+                        </div>
+                        <div class="to_do_home_block">
+                            <home-to-do-block-list></home-to-do-block-list>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

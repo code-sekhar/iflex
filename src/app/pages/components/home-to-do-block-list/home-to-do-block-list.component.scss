@@ -1,0 +1,57 @@
+.blocks_sect>h2 {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.blocks_sect>h4 {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.block_prices>h2 {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.home_block_item_main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.home_block_item_main {
+    background: #262626;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.08));
+    padding-left: 34px;
+    padding-right: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.home_block_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delete {
+    margin-left: 18px;
+}

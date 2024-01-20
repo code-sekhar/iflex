@@ -7,7 +7,10 @@ const routes: Routes = [
   },
   {
     path:'dashboad',loadChildren:()=>import('./pages/dashboard/dashboard.module').then(m=>m.DashboardModule)
-  }
+  },
+  {
+    path:'payment',loadChildren:()=>import('./pages/payment/payment.module').then(m=>m.PaymentModule)
+  },
 ];
 
 @NgModule({

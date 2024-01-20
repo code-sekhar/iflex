@@ -1,0 +1,50 @@
+// membership-header-css
+.membs_header_content>h2 {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 11px;
+}
+
+.membs_header_content>p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.inner_member_ship_closes>a {
+    background: #222;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.08));
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.member_ship_header_inner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.membreship-page {
+    padding: 34px 14px;
+    height: 100%;
+    background: #141313;
+}
+
+.member_column {
+    margin-top: 21px;
+}
+
+// membership-header-css-end

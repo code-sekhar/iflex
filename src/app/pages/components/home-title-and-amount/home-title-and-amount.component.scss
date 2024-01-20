@@ -1,0 +1,27 @@
+.dash_board_title>h2 {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.dash_board_title>h4 {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.dash_board_title {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
