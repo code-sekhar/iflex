@@ -1,0 +1,62 @@
+.block_columns>h4 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.inner_block_pay_columns>h4 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0px;
+}
+
+.inner_block_pay_columns>h3 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+button.time_btns {
+    background: #ADFF2E;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.08));
+    line-height: 1;
+    padding: 4px 10px;
+    color: #030303;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    width: 100%;
+    text-align: left;
+}
+
+.block-capture-time-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block_columns>h4:last-child {
+    margin-bottom: 5px !important;
+}
+
+.block-capture-time {
+    border-bottom: 1px solid #383838;
+    padding: 10px 0px;
+}

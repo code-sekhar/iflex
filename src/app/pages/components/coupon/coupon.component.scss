@@ -1,0 +1,205 @@
+.plan-one {
+    background: #262626;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.08));
+    padding: 15px 16px;
+    border-radius: 22px;
+}
+
+.plan_header>h4 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+span.badge.yellow {
+    background: #DFFD31;
+    color: #191919;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+.plan_header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.sub_header>h2 {
+    color: #DEDEDE;
+    font-family: Poppins;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 00;
+}
+
+.sub_header>h4 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-left: 14px;
+}
+
+.sub_header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.headings_subs>h4 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.cupon_input_boxs>input {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    padding-bottom: 0;
+    outline: none;
+    border-radius: 11px;
+    text-align: center;
+}
+
+.cupon_input_boxs>input::placeholder {
+    color: #000;
+    font-weight: 600;
+}
+
+.cupon_input_boxs {
+    margin-bottom: 15px;
+}
+
+.headings_subs {
+    margin-bottom: 14px;
+}
+
+button.custom_btns {
+    background: #DFFD31;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.08));
+    width: 100%;
+    padding: 12px 30px;
+    line-height: 1;
+    color: #191919;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: normal; */
+    border: none;
+    outline: none;
+    border-radius: 12px;
+}
+
+@media only screen and (max-width: 1222px) and (min-width: 999px) {}
+
+@media only screen and (max-width: 1658px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1002px) and (min-width: 665px) {}
+
+@media only screen and (max-width: 664px) and (min-width: 300px) {}
+
+
+/* js_cont_justify */
+
+@media only screen and (max-width: 1398px) and (min-width: 993px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 826px) and (min-width: 300px) {
+    span.badge.yellow {
+        font-family: Poppins;
+        font-size: 16px !important;
+    }
+    .plan_header>h4 {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 14px !important;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .sub_header>h2 {
+        color: #DEDEDE;
+        font-family: Poppins;
+        font-size: 24px !important;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .sub_header>h4 {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 11px !important;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .headings_subs>h4 {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 12px !important;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 370px) and (min-width: 320px) {}
+
+@media only screen and (max-width: 900px) and (min-width: 370px) {}
+
+@media only screen and (max-width: 790px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 1920px) and (min-width: 1080px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 826px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1600px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 400px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 551px) {}
+
+@media only screen and (max-width: 1382px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1480px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1524px) and (min-width: 1422px) {}
+
+@media only screen and (max-width: 1657) and (min-width: 1524px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1400px) {}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 768px) {}
+
+@media only screen and (max-width: 767px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 4999px) and (min-width: 999px) {}
+
+@media only screen and (max-height: 4999px) and (min-height: 990px) {}

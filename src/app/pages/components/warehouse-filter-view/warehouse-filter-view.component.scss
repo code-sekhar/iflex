@@ -1,0 +1,84 @@
+.filter_box>ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.filter_box>ul>li {
+    display: inline-block;
+}
+
+.filter_box>ul>li>a {
+    text-decoration: none;
+    padding: 6px 24px;
+    display: block;
+    background-color: #39393C;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.08));
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 10px;
+}
+
+.filter_box>ul>li {
+    margin: 0px 3px;
+}
+
+.filter_box {
+    background: #000;
+    stroke-width: 1px;
+    stroke: #030303;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.08));
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.filter_box>ul>li>a.active {
+    background-color: #E0FD31;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.08));
+    color: #000;
+    font-family: "Work Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1080px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 826px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1600px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 400px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 551px) {}
+
+@media only screen and (max-width: 1382px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1480px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1524px) and (min-width: 1422px) {}
+
+@media only screen and (max-width: 1657) and (min-width: 1524px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1400px) {}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 768px) {}
+
+@media only screen and (max-width: 767px) and (min-width: 300px) {
+    .filter_box>ul>li>a {
+        padding: 6px 16px;
+    }
+}
+
+@media only screen and (max-width: 4999px) and (min-width: 999px) {}
+
+@media only screen and (max-height: 4999px) and (min-height: 990px) {}

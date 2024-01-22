@@ -1,0 +1,183 @@
+/* ON/OFF Switch */
+
+.onoffswitch {
+    position: relative;
+    width: 55px;
+    display: inline-block;
+    font-size: 80%;
+}
+
+.onoffswitch .onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid hsl(0, 0%, 90%);
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    margin: 0;
+}
+
+.onoffswitch .onoffswitch-inner {
+    width: 200%;
+    margin-left: -100%;
+    -webkit-transition: margin 0.15s ease-in-out;
+    -o-transition: margin 0.15s ease-in-out;
+    -moz-transition: margin 0.15s ease-in-out;
+    transition: margin 0.15s ease-in-out;
+}
+
+.onoffswitch .onoffswitch-inner:before,
+.onoffswitch .onoffswitch-inner:after {
+    float: left;
+    width: 50%;
+    height: 24px;
+    padding: 0;
+    line-height: 24px;
+    font-size: 80%;
+    color: hsl(0, 0%, 100%);
+    font-weight: normal;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.onoffswitch .onoffswitch-inner:before {
+    content: "";
+    padding-left: 0px;
+    background-color: #E0FD31;
+    color: hsl(0, 0%, 0%);
+}
+
+.onoffswitch .onoffswitch-inner:after {
+    content: "";
+    padding-right: 10px;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 24%);
+    text-align: right;
+}
+
+.onoffswitch .onoffswitch-switch {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    background: hsl(0, 0%, 0%);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    bottom: 0;
+    right: 35px;
+    -webkit-transition: right 0.15s ease-in-out;
+    -o-transition: right 0.15s ease-in-out;
+    -moz-transition: right 0.15s ease-in-out;
+    transition: right 0.15s ease-in-out;
+}
+
+.toggle-group {
+    position: relative;
+    height: 27px;
+    font-family: "Poppins", poppins, Arial, sans-serif;
+    top: 50%;
+    left: 0px;
+    margin-top: -13.5px;
+}
+
+.toggle-group input[type=checkbox] {
+    position: absolute;
+    left: 10px;
+    border: none;
+    outline: none;
+}
+
+.toggle-group input[type=checkbox]:checked~.onoffswitch .onoffswitch-label .onoffswitch-inner:before {
+    background-color: #E0FD31;
+}
+
+.toggle-group input[type=checkbox]:checked~.onoffswitch .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+    background: #000000;
+}
+
+.toggle-group input[type=checkbox]:checked~.onoffswitch .onoffswitch-label .onoffswitch-switch {
+    right: 1px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    background: #000000;
+}
+
+.toggle-group input[type=checkbox]:focus~.onoffswitch {
+    outline: thin dotted #333;
+    outline: 0;
+}
+
+.toggle-group label {
+    position: absolute;
+    cursor: pointer;
+    padding-left: 65px;
+    display: inline-block;
+    text-align: left;
+    line-height: 24px;
+    width: 100%;
+    z-index: 1;
+    height: 24px;
+    font-weight: 200;
+}
+
+
+/* ==== Accessibility ===== */
+
+.aural {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+}
+
+span.txt {
+    margin-left: 21px;
+}
+
+.aural:focus {
+    clip: rect(0, 0, 0, 0);
+    font-size: 1em;
+    height: auto;
+    outline: thin dotted;
+    position: static !important;
+    width: auto;
+    overflow: visible;
+}
+
+// label-name
+.toggle-group>label {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+span.point_label {
+    color: #E0FD31;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.price_point {
+    color: #E0FD31;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.price_point {
+    float: right;
+}

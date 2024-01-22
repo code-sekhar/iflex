@@ -1,0 +1,195 @@
+.login_input>input {
+    background: #F0F0F0;
+    width: 100%;
+    padding: 10px 12px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+}
+
+.login_input {
+    margin-bottom: 15px;
+}
+
+.login_input>input::placeholder {
+    color: #262626;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.login_forgot_areas>a {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.login_input.password_last {
+    margin-bottom: 5px;
+}
+
+.login_forgot_areas {
+    text-align: right;
+}
+
+.login_btn>button {
+    background: #DFFD31;
+    color: #000;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    padding: 12px 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+}
+
+.login_forgot_areas {
+    margin-bottom: 30px;
+}
+
+.header_logo {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.footer_logo {
+    text-align: center;
+}
+
+.footer_logo {
+    margin-top: 36px;
+}
+
+.main_login_container {
+    height: 100vh;
+    position: relative;
+}
+
+.inner_main_login {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.inner_main_login {
+    padding: 0px 40px;
+}
+
+a.sign_up_link {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.login_sign_up {
+    text-align: center;
+    margin-top: 34px;
+}
+
+.login_header>h4 {
+    display: none;
+}
+
+@media only screen and (max-width: 1222px) and (min-width: 999px) {}
+
+@media only screen and (max-width: 1658px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1002px) and (min-width: 665px) {}
+
+@media only screen and (max-width: 664px) and (min-width: 300px) {
+    .inner_main_login {
+        padding: 0px 10px;
+    }
+}
+
+
+/* js_cont_justify */
+
+@media only screen and (max-width: 1398px) and (min-width: 993px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 826px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 480px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 370px) and (min-width: 320px) {}
+
+@media only screen and (max-width: 900px) and (min-width: 370px) {}
+
+@media only screen and (max-width: 790px) and (min-width: 300px) {
+    .login_header>h4 {
+        display: block;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .header_logo {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .header_logo>img {
+        width: 120px;
+    }
+    .footer_logo>img {
+        width: 120px;
+    }
+    .login_sign_up {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1080px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 826px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1600px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 400px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 551px) {}
+
+@media only screen and (max-width: 1382px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1480px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1524px) and (min-width: 1422px) {}
+
+@media only screen and (max-width: 1657) and (min-width: 1524px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1400px) {}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 768px) {}
+
+@media only screen and (max-width: 767px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 4999px) and (min-width: 999px) {}
+
+@media only screen and (max-height: 4999px) and (min-height: 990px) {}

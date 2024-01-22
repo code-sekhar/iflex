@@ -3,14 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path:'',loadChildren:()=>import('../app/pages/login/login.module').then(m=>m.LoginModule)
+    path:'',loadChildren:()=>import('./login/login.module').then(m=>m.LoginModule)
   },
   {
-    path:'dashboad',loadChildren:()=>import('./pages/dashboard/dashboard.module').then(m=>m.DashboardModule)
-  },
-  {
-    path:'payment',loadChildren:()=>import('./pages/payment/payment.module').then(m=>m.PaymentModule)
-  },
+    path:'home',loadChildren:()=>import('./pages/home/home.module').then(m=>m.HomeModule)
+  }
 ];
 
 @NgModule({

@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { SideberModule } from '../sideber/sideber.module';
 import { ComponentsModule } from '../components/components.module';
 
 
@@ -13,7 +12,8 @@ import { ComponentsModule } from '../components/components.module';
   ],
   imports: [
     CommonModule,
-    DashboardRoutingModule,SideberModule,ComponentsModule
-  ]
+    DashboardRoutingModule,ComponentsModule
+  ],
+
 })
 export class DashboardModule { }
